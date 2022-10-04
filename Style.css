@@ -1,0 +1,372 @@
+* {
+
+
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans', sans-serif;
+
+}
+
+
+body { 
+
+        
+        
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        
+        
+
+}
+
+header {
+
+    padding: 2rem 1rem;
+    
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+
+
+      font-size: 2.5rem;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 300;
+      color:black;
+      margin-top: 1rem ;
+      margin-bottom: 1rem;
+
+
+
+}
+
+#new-task-form {
+
+
+   display: flex;
+
+}
+ .check {
+
+    color: black;
+
+ }
+
+  .texxt{
+
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+
+
+
+  }
+
+#new-task-input {
+    flex: 1 1 0%;
+   
+    display: flex;
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 20px;
+   
+    color: darkslategray;
+    font-size: 1rem;
+    
+    
+}
+
+#date{
+
+
+    background-color: #62529c;
+      border: none;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition: 0.8s;
+
+
+
+
+}
+
+#tic {
+
+
+  flex: 1 1 0%;
+   
+  display: flex;
+  background-color: lightgray;
+  padding: 1rem;
+  border-radius: 10px;
+
+  justify-content: space-evenly;
+  
+ 
+  color: darkslategray;
+  font-size: 1rem;
+
+
+}
+
+
+
+#timers {
+
+
+  display: flex;
+  align-content: flex-start;
+
+
+  justify-content: space-evenly;
+  background-color: lightgray;
+  padding: 1rem;
+  border-radius: 10px;
+
+  justify-content: space-evenly;
+  
+ 
+  color: darkslategray;
+  font-size: 1rem;
+
+
+
+  
+
+
+
+}
+
+
+.L1{
+
+
+    font-weight: 200px;
+    color: red;
+    justify-content: space-between;
+
+
+
+}
+.tictok{
+
+
+  justify-content: space-between;
+}
+
+.time1{
+
+
+         border-radius: 10px;
+         color: #62529c;
+
+}
+.time1:hover{
+
+    
+    box-shadow: darkgrey;
+
+
+}
+
+.time2{
+
+     
+  border-radius: 10px;
+  color: #62529c;
+
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:darkorange;
+    opacity: 1; 
+
+}
+
+ #new-task-submit{
+ 
+  background-color: #62529c;
+      border: none;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition: 0.8s;
+
+
+
+}
+
+#new-task-submit:hover{
+
+   opacity: 0.8;
+
+}
+#new-task-submit:active {
+
+  opacity: 0.6;
+
+
+}
+main{
+
+  
+  
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+
+    
+
+
+}
+
+.TASK-LIST {
+ 
+  padding: 1rem;
+
+}
+
+.TASK-LIST h2{
+
+  
+  font-size: 2.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+  color: black;
+  margin-top: 1rem ;
+  margin-bottom: 1rem;
+
+
+}
+
+#tasks .task{
+
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+
+
+
+
+
+}
+
+.texxt::placeholder{
+
+
+  color:darkorange;
+  opacity: 1; /* Firefox */
+
+
+
+} 
+
+
+
+#tasks .task .Contents .texxt {
+
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   transition: 0.4s;
+
+
+} 
+
+#tasks .task .Contents .texxt:not(:read-only){
+
+  color: darkorchid;
+}
+
+#tasks .task .actions {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -0.5rem;
+  cursor: pointer;
+
+
+
+
+}
+#tasks .task .actions button {
+  
+  cursor: pointer;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.Edit{
+
+color: #62529c;
+
+
+}
+
+.Edit:hover{
+
+box-shadow: darkgrey;
+
+
+
+}
+
+.Edit:active {
+
+  opacity: 0.6;
+
+
+
+}
+
+.Delete{
+
+  color: #62529c;
+  
+
+
+}
+
+
+.Delete:hover{
+
+  box-shadow: darkgrey;
+  
+  }
+  
+  .Delete:active {
+  
+      opacity: 0.6;
+  
+  
+    }
+
+    .check{
+
+        background-color: aqua;
+
+    }
+
+
+
+
+
+
+
+
